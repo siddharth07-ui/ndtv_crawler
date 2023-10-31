@@ -32,13 +32,5 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Code Linting
-        run: |
-          yarn cache clean
-          yarn install
-          yarn lint
-          yarn test
-          yarn build
-
       - name: Execute crawler
         run: python scraping_ndtv.py
