@@ -33,7 +33,11 @@ jobs:
           pip install -r requirements.txt
 
       - name: Code Linting
-        run: npm run lint
+        run: |
+          yarn install
+          yarn lint
+          yarn test
+          yarn build
 
       - name: Execute crawler
         run: python scraping_ndtv.py
