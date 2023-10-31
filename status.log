@@ -1,0 +1,2 @@
+2023-10-31 19:36:25,425 - __main__ - INFO - Running scraper for NDTV website at https://www.ndtv.com/
+2023-10-31 19:36:25,872 - __main__ - INFO - Created CSV file containing news articles.
