@@ -1,4 +1,4 @@
-# Schedule a Python script with GitHub Actions
+# Python script with GitHub Actions
 
 This example shows how to run a Python script with GitHub Actions. It calls an API and logs the response in `status.log`
 
